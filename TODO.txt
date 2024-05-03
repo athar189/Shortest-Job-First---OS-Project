@@ -1,0 +1,29 @@
+TODO
+
+The following is a list of things we still need to work on to make the Shortest Job First (SJF) Java program better:
+
+1. Make SJF work with priority: We need to change the program so that it can handle processes with different priority levels. Right now, it only considers the time it takes for each process to complete. We want to prioritize processes with higher importance.
+
+2. Improve input validation: We need to make sure the program can handle different types of inputs correctly. For example, if someone enters a letter instead of a number, or if they enter negative numbers for arrival time or burst time, we should show an error message and ask for valid input.
+
+3. Allow for preemptive SJF: Currently, the program only works with non-preemptive SJF, which means once a process starts, it runs until it finishes. We want to change it so that we can interrupt processes if needed and give priority to processes with shorter remaining time.
+
+4. Show more information: We should calculate and display additional information, such as average waiting time and average turnaround time. These metrics help us understand how well the program is performing.
+
+5.Add file support: It would be useful if we could read process details from a file and save the results to another file. This way, we can easily work with larger sets of processes without manually entering them each time.
+
+6.Improve the code: We need to go through the code and make it easier to read and understand. We can break it down into smaller parts, give things better names, and add comments to explain what each part does.
+
+7.Make it user-friendly: We should make the program more user-friendly by adding menus or prompts that guide the user. Clear instructions and explanations will help users know what to do and how to use the program.
+
+8.Test the program: We need to create tests to check if the program works correctly. We should test it with different scenarios, including unusual cases, to make sure it behaves as expected.
+
+9.Make it faster: We want to improve the program's speed by finding ways to make it run more efficiently. We should look at the different parts of the program and see if there are ways to make them faster.
+
+10. Document everything: It's important to document the program well so that others can understand and use it. We should explain what each part does, provide examples, and update the program's README file.
+
+11. Fix bugs and review the code: We need to fix any problems or errors that users report. It's also a good idea to review the code regularly to catch any mistakes or make improvements.
+
+12.Get feedback: We should ask users for feedback and listen to their suggestions. This will help us make the program better and address any concerns they have.
+
+By looking at these tasks, we can see how far along we are in improving the program.

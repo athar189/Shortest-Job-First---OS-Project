@@ -1,0 +1,41 @@
+Installation Guide
+
+Follow the steps below to install and run the Shortest Job First (SJF) Java program on your system.
+
+Prerequisites
+
+Before proceeding with the installation, ensure that you have the following prerequisites:
+
+Java Development Kit (JDK) installed on your system. The program is compatible with JDK 8 or higher.
+
+Installation Steps
+1. Download the source code files from the repository or obtain them from another trusted source.
+2. Extract the downloaded ZIP file to a directory of your choice.
+3. Open a terminal or command prompt and navigate to the extracted directory.
+4. Compile the Java source code using the Java compiler. Execute the following command:
+	javac Main.java
+
+5. After the compilation is successful, you can run the program using the Java Virtual Machine (JVM). Execute the following command:
+	java Main
+
+6. The program will prompt you to enter the number of processes and provide further instructions for inputting process details.
+
+7. Follow the on-screen prompts to input the process details, including process ID, arrival time, and burst time.
+
+8. The program will display the results for both non-preemptive and preemptive SJF, including the Gantt chart.
+
+You have successfully installed and executed the Shortest Job First (SJF) Java program on your system.
+
+Troubleshooting
+
+If you encounter any errors during the compilation or execution of the program, make sure you have a compatible version of the Java Development Kit (JDK) installed. Verify the installation and ensure that the javac and java commands are accessible from the command line.
+
+If you face any issues specific to the program, such as unexpected behavior or incorrect results, please refer to the program documentation or consult the program's repository for troubleshooting steps. You may also consider submitting an issue to report the problem and seek assistance from the program's developers.
+
+Uninstallation
+
+To uninstall the Shortest Job First (SJF) Java program from your system, simply delete the directory containing the program files. Additionally, you can remove the extracted ZIP file if it is no longer needed.
+
+License
+
+This program is licensed under the MIT License. Refer to the program's repository for more details.
